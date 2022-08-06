@@ -1,0 +1,208 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background-image:linear-gradient(80deg, #D74177, #FFE98A, #CD295A);
+    height:8vh;
+    text-align: center;
+    color: WHITE;
+    font-size:45px;
+}
+main {
+    display:flex;
+    width:100vw;
+    height:80vh;
+}
+.aside {
+    display:block;
+    width: 50%;
+    height: 80vh;
+    position: absolute;
+    
+   /* background-image: linear-gradient(45deg,#c9f5a0, #435a3de1, #324d27dc);
+    /*-webkit-gradient:#69265c ;
+    -moz-linear-gradient:#274f69;*/
+    color:#fdfdfe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:0px;
+    
+    padding-top:35px;
+    justify-content: center;
+    text-align: center;
+    padding:40px 20px;
+    padding-left:15px;
+    position:relative;
+}
+
+h2 {
+    font-size: 3em;
+    color:black;
+    font-weight:700;
+    padding:10px;
+    width:400px;
+    border-radius:8px;
+    margin-left:170px;
+    
+}
+h1 {
+    
+    font-size:1.8em;
+    color: #d18c0c;
+    margin-bottom:50px;
+    margin-top:23px;
+    font-weight: 800;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+h3{
+    color:#bb034a;;
+    font-weight: 600;
+    margin-top:40px;
+    
+}
+.p3 {
+    font-size:16px;
+    color:black;
+     
+}
+p {
+    color:black;
+}
+.row {
+    width:40vw;
+    height:76vh;
+    position:relative;
+    z-index:2;
+    display:block;
+    float: right;
+    justify-content: center;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+    background: #fcd5d594;
+    background-image: url('tarefa.3.jpg') ;
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: 100% 100%;
+    border: 1px dotted black;
+/*
+    background-image:url('pngwing.com.png') ;
+    background-repeat: no-repeat;
+    background-position:90%;*/
+    background-size:cover;
+    border-radius:8px;
+    margin-top:30px;
+    margin-right:45px;
+    margin-left:25px;
+
+    
+}
+.listItems {
+    display:block;
+    width:100%;
+    height:400px;
+    margin-top:50px;
+    justify-content:center;
+    padding:20px;
+
+}
+.done {    background-color:#119b04!important;
+    color:#fdfdfe;
+}
+
+#enter {
+    border: 1px solid #fdfdfe;
+    border-radius:5px;
+    font-size: 10px;
+    padding:5px;
+    color:#ededf5;
+    width:60px;
+    height:35px;
+    margin:0px;
+    margin-left:10px;
+    background-color: #d18c0c;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    font-weight: normal;
+    display: inline-block;
+}
+#enter:hover {
+    background-color: black;
+    color: #fdfdfe;
+}
+
+li {
+    padding-top:12px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height:35px;
+    width:90%!important;
+    color:black;
+    text-transform: capitalize;
+    background-image:linear-gradient(80deg, #F1EAB9, #FF8C8C );
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+    margin-bottom:15px;
+    font-size:19px;
+    font-weight: 700;
+}
+li:hover {
+    background-color: #f8c86dd0;
+}
+li > button {
+    color: #fdfdfe;
+    margin-right:5px;
+    border-radius:7px;
+    background: #fdfdfe77;
+ /*   background-image:url('feito.com.png');
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: cover;*/
+    float: right!important;
+    border:none;
+}
+
+.delete {
+    display: none;
+}
+
+ul {
+    width: 100%;
+    height:100%;
+    margin: none!important;
+    padding: none !important;;
+   
+}
+.tarefa {
+    display:flex;
+    
+    justify-content: center;
+    margin-bottom:2px;
+    height:35px;
+}
+/*
+.nova-tarefa{
+    float:left;
+    color:black;
+    font-weight: 600;
+    margin-top:30px;
+}*/
+.tarefa-input{
+    width:45vw;
+    height: 35px;
+    border-radius:8px;
+    border:1px solid #bb034a;
+    padding-left:10px;
+}
+.ul-li {
+    width:100%;
+    padding:0px
+}
